@@ -1,0 +1,7 @@
+locustfile: test_load.py
+host: http://127.0.0.1:8000
+users: 3
+spawn-rate: 6
+headless: true
+run-time: 15s
+logfile: logs/run.log
